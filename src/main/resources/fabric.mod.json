@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "buriedalive",
+    "version": "${version}",
+    "name": "Buried Alive",
+    "description": "Spawns you in a collapsed underground cave with two pickaxes and a torch, challenging you to dig your way back to the surface.",
+    "authors": ["BuriedAlive Team"],
+    "contact": {},
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.buriedalive.BuriedAliveMod"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.15.11",
+        "minecraft": "~1.20.1",
+        "fabric-api": "*"
+    }
+}
